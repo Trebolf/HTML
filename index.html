@@ -1,0 +1,108 @@
+<!-- Shift + Alt + A = comments -->
+
+
+<html> 
+    <head>
+        <title>Metadata inside the header</title> <!-- title: Manipulates the text on the browser tab -->
+	</head>
+	<body>
+        <!-- Add forms to fill out -->
+        <form action="http://localhost:5555" method="POST">
+            <!-- <input type="text" id="id" placeholder="placeholder"> -->
+            <input type="text" name="user" id="username-input" placeholder="Username"> <!-- text type general use -->
+            <br/>
+            <input type="password" name="password" id="password-uinput" placeholder="Password"> <!-- password type hides input -->
+            <br/>  
+            <input type="radio" name="cereal" value="milk-first"> <!-- Pick one -->
+            <span>Milk First</span>
+            <input type="radio" name="cereal" value="cereal-first">
+            <span>Cereal First</span>
+            <br/>
+            <input type="checkbox" name="cerealbrands" value="lucky charms"> <!-- Pick multiple -->
+            <span>Lucky Charms</span>
+            <input type="checkbox" name="cerealbrands" value="cheerios">
+            <span>Cheerios</span>
+            <br/>
+            <input type="date"> <!-- Pick a date from a calendar -->
+
+            <input type="submit" value="Cry"> <!-- Creates a button -->
+        
+            <button>BUTTON</button> <!-- Same as above. Will refresh the page if within a form -->
+        </form>
+        
+		<!-- Header Tags -->
+        <h1>Header 1</h1> <!-- Makes large BOLDED text -->
+        <h2>Header 2</h2> <!-- Smaller... -->
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6> <!-- Smallest Header -->
+
+        <div>This is a div!</div> <!-- General block element -->
+        No tag(What the user sees), same to div.
+
+        <div> Tree Structure
+            <div>Div 1</div>
+            <div>Div 2</div>
+        </div>
+
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, atque odio a quisquam velit facere enim mollitia molestias saepe repellat placeat magni dolorem, possimus quibusdam illo laudantium nostrum reprehenderit officia?</div>
+
+        <span>Span = Inline Element</span> <!-- General inline element -->
+        <span>Span 2</span>
+
+        <!-- p for paragraphs. Block element. Has Margin -->
+        <!-- "lorem, lorem[num], Random Latin + number of words. -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae velit earum deserunt optio doloremque repellat cupiditate est fugit. Sequi atque dolore eos. Consectetur voluptatum, sapiente rem aperiam labore rerum fugiat.</p> <!-- Paragraph -->
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem sapiente aspernatur ea soluta incidunt? Quia ducimus iste laborum quasi quas nobis, fugit ipsum ipsa consequatur sequi porro quaerat magnam. Totam magnam nobis hic! Aut enim amet deserunt cupiditate facilis animi sed. Consequuntur ipsum nostrum nihil beatae dolor veritatis commodi provident!</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <!-- a for links -->
+        <a href="http://www.pokemipsum.com/">Pokemon Ipsum </a>
+        <br/>
+
+        <table border="1"> <!-- root tag for table -->
+            <thead> <!-- where we add the header -->
+                <tr> <!-- create a new row-->
+                    <th>Header 1</th> <!-- header columns -->
+                    <th>Header 2</th>
+                </tr>
+            </thead>
+            <tbody> <!-- where the actual data goes -->
+                <tr> <!-- data rows -->
+                    <td>Row 1 Col 1</td> <!-- data columns -->
+                    <td>Row 1 Col 2</td>
+                </tr>
+                <tr>
+                    <td>Row 2 Col 1</td>
+                    <td>Row 2 Col 2</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Unordered List -->
+        <ul>
+            <li>Dwayne Johnson</li>
+            <li>Vin Diesel</li>
+            <ul>
+                <li>Family</li>
+                <li>Cars</li>
+            </ul>
+        </ul>
+        
+        <!-- Ordered List -->
+        <ol>
+            <li>Honda Civic</li>
+            <li>Dodge Charger</li>
+            <li>Subaru Impreza</li>
+        </ol>
+
+
+        <!-- Display images using source. Alternatively, print -->
+        <img src="./JSON DERULO.png" alt="Oops missing link">
+
+        <!-- Display videos -->
+        <video src="./video.mp4" controls></video>
+        
+	</body>
+</html>
